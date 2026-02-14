@@ -11,6 +11,12 @@ A relational database project built using MySQL to manage students, teachers, su
 - Reporting View
 - Sample data included
 
+## Technologies Used
+- MySQL
+- SQL (DDL, DML)
+- Relational Database Design
+- ERD Modeling
+
 ## Database Structure
 - Students
 - Teachers
@@ -18,10 +24,19 @@ A relational database project built using MySQL to manage students, teachers, su
 - Grades
 
 ## Relationships
-- One Teacher teaches many Subjects
-- One Student has many Grades
-- One Subject has many Grades
-- Many-to-Many relationship between Students and Subjects through Grades
+- One-to-Many: Teacher → Subjects
+- One-to-Many: Student → Grades
+- One-to-Many: Subject → Grades
+- Many-to-Many: Students ↔ Subjects (via Grades associative entity)
+
+## Key Concepts Demonstrated
+- Primary & Foreign Keys
+- One-to-Many Relationships
+- Many-to-Many via Associative Entity
+- Composite UNIQUE Constraints
+- Data Integrity Constraints (CHECK, UNIQUE)
+- SQL Views for Reporting
+- Aggregation & Grouping Queries
 
 ## How to Run
 1. Run `schema.sql`
