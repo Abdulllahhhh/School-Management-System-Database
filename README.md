@@ -29,5 +29,6 @@ A relational database project built using MySQL to manage students, teachers, su
 3. Run `views.sql`
 4. Use `queries.sql` for reports
 
-## ERD
-See `ERD.png` for the database diagram.
+## ERD Diagram
+
+![ERD](ERD.png)
